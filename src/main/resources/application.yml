@@ -1,0 +1,12 @@
+datasources:
+ one:
+  jdbcUrl: jdbc:h2:mem:h2Testdb
+  username: sa
+  password: 
+  maximumPoolSize: 1
+ another:
+  jdbcUrl: jdbc:mysql://localhost:3306/cts
+  username: root
+  password: root
+  driverClassName: com.mysql.jdbc.Driver
+  maximumPoolSize: 1
